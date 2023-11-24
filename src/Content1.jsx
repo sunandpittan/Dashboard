@@ -22,7 +22,7 @@ function Content1() {
         <Validity />
         <Card1 />
         <Card2 />
-        <p className="text-primary text-end">
+        <p className="text-primary text-end mt-2">
           *Some unique features are provided as add-ons with individual plans
           for each features
         </p>

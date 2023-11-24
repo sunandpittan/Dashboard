@@ -4,7 +4,7 @@ import logo from "./assets/logo.png";
 
 function Header() {
   return (
-    <div className="row bg-white" style={{ height: "100px" }}>
+    <div className="row bg-white" style={{ height: "15vh" }}>
       <div className="col-2 my-auto">
         <img src={logo} alt="Logo" className="w-25 d-block mx-auto" />
       </div>
@@ -14,8 +14,8 @@ function Header() {
             width: "0",
             height: "0",
             borderTop: "0px solid transparent",
-            borderLeft: "90px solid white",
-            borderBottom: "100px solid transparent",
+            borderLeft: "8vw solid white",
+            borderBottom: "15vh solid transparent",
           }}
         ></div>
       </div>

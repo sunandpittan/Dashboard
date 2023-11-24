@@ -8,8 +8,8 @@ function Card1() {
         <div className="card shadow border-0 h-100">
           <div className="card-body">
             <h5 className="card-title">Basic</h5>
-            <h6 className="card-title text-secondary text-decoration-line-through">
-              $89.99/mo
+            <h6 className="card-title text-secondary">
+             <span className="linestrk">$89.99/mo</span>
             </h6>
             <p className="card-text">$9.99/mo</p>
             <a
@@ -42,8 +42,8 @@ function Card1() {
         <div className="card shadow border-0 h-100">
           <div className="card-body">
             <h5 className="card-title">Standard</h5>
-            <h6 className="card-title text-secondary text-decoration-line-through">
-              $189.99/mo
+            <h6 className="card-title text-secondary">
+            <span className="linestrk">$189.99/mo</span>
             </h6>
             <p className="card-text">$99.99/mo</p>
             <a
@@ -76,8 +76,8 @@ function Card1() {
         <div className="card shadow border-0 h-100">
           <div className="card-body">
             <h5 className="card-title">Premium</h5>
-            <h6 className="card-title text-secondary text-decoration-line-through">
-              $389.99/mo
+            <h6 className="card-title text-secondary">
+            <span className="linestrk">$389.99/mo</span>
             </h6>
             <p className="card-text">$199.99/mo</p>
             <a
